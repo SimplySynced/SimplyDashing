@@ -39,7 +39,7 @@ if ($kodi_playertype == 'video') {
     $k_runtime_sec =  $kodi_video_data['result']['item']['runtime'];
     $k_runtime = gmdate("H:i:s", $k_runtime_sec);
 
-
+    // TODO need to add logic for if video is movie or a TV Episode
 
     echo '<div style="width: 40%; float: left;">
             <img src="'.$k_image.'" width="100%">
