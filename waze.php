@@ -16,6 +16,9 @@ $work_lat = $waze_work_lat;
 $work_long = $waze_work_long;
 $num_routes = $waze_paths;
 
+echo $waze_home_lat;
+echo $waze_home_long;
+
 // Fetch Waze traffic data from the RoutingManager using the Latitude and Longitude of the Home and Work addresses.
 // These are set in the local database in the config table.
 $curl_handle=curl_init();
